@@ -1,5 +1,5 @@
-import React from 'react'
-import Image1 from '../images/img1.png'
+import React from "react";
+import Image1 from "../images/img1.png";
 import Image2 from "../images/img2.png";
 import Image3 from "../images/img3.png";
 import Image4 from "../images/img2.png";
@@ -69,14 +69,17 @@ const Sports = () => {
         <div className="img ad">
           <img className="ad_img" src={Image5} alt="" />
           <p>Advertisement Title</p>
-          <span className='ad_word'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cumque minima, corporis, ipsam doloremque quis dolor hic fugit molestiae laudantium, facilis nihil quasi laborum delectus temporibus maxime culpa rerum distinctio?
+          <span className="ad_word">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            cumque minima, corporis, ipsam doloremque quis dolor hic fugit
+            molestiae laudantium, facilis nihil quasi laborum delectus
+            temporibus maxime culpa rerum distinctio?
           </span>
         </div>
       </div>
       <button className="more">See more</button>
     </div>
   );
-}
+};
 
-export default Sports
+export default Sports;

@@ -7,19 +7,19 @@ import "./App.css";
 
 export const ThemeContext = createContext("light");
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"))
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div className="App" id={theme}>
         <SwitchToggle func={toggleTheme} name={theme} />
-        <Sports className = "Sport"/>
+        <Sports className="Sport" />
         <br />
         <br />
-        <Collection className = "Collection"/>
+        <Collection className="Collection" />
         {/* <Sample/> */}
       </div>
     </ThemeContext.Provider>
